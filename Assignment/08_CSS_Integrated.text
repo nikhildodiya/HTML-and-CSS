@@ -1,0 +1,25 @@
+CSS can be added to HTML documents in 3 ways: 
+
+(1). Inline:
+by using the style attribute inside HTML elements. 
+
+Example:
+<a href="demo.css">Demo</a>
+
+(2). Internal: 
+by using a <style> element in the <head> section.
+
+Example:
+    <style>
+        body
+        {
+            background-color: yellow;
+            text-align: center;
+        }
+    </style> 
+
+(3). External: 
+by using a <link> element to link to an external CSS file.
+
+Example:
+<link rel="stylesheet" href="demo.css">
