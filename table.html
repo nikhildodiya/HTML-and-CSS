@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table</title>
+    <style>
+         table, th, td
+         {
+            border: 2px solid black;
+            border-collapse: collapse;
+         }
+         table
+         {
+            text-align: center; 
+         }         
+    </style>
+</head>
+<body>
+    <center>
+    <caption><b><u>INVOICE BILL</u></b></caption>
+    <table cellpadding="5px" cellspacing="10px" >
+        <tr>
+        <th style="color: brown;">No</th>
+        <th style="color:  purple;">item name</th>
+        <th style="color: peru;">item price</th>
+        <th style="color: blue;">piece</th>
+        </tr>
+        <tr>
+            <td style="color: red;">1</td>
+            <td style="color: green;">maggie</td>
+            <td style="color: pink;">70/-</td>
+            <td style="color: blue;" rowspan="2">5</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>magic masala</td>
+            <td rowspan="2">155/-</td>
+            <!--<td>5</td>-->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>chocolate</td>
+            <!--<td>155/-</td>--> 
+            <td>10</td>
+        </tr>
+        <tr>
+            <td colspan="4"><b>Total Price : 250/-</b></td>
+        </tr>
+    </center>
+    </table>
+</body>
+</html>
