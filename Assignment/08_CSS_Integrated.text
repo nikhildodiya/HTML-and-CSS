@@ -4,7 +4,7 @@ CSS can be added to HTML documents in 3 ways:
 by using the style attribute inside HTML elements. 
 
 Example:
-<a href="demo.css">Demo</a>
+<a style="color:red;">Demo</a>
 
 (2). Internal: 
 by using a <style> element in the <head> section.
